@@ -120,6 +120,10 @@ p {
   display: none;
 }
 
+.radio, .checkbox {
+    display : initial;
+}
+
 @media (max-width: 600px) {
 
 .gauche{
