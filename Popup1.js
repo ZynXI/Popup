@@ -11,9 +11,9 @@ var span = document.getElementsByClassName("close")[0];
 var button = document.getElementsByClassName("sib-form-block__button-with-loader")[0];
 
 // When the user clicks on the button, open the modal
-	btn.onclick = function() {
-  	modal.style.display = "block";
-}
+//	btn.onclick = function() {
+//  	modal.style.display = "block";
+//}
 
 // Affiche la popup automatiquement après 3s 
 window.onload = () =>{
