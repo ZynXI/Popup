@@ -16,7 +16,7 @@
     font-weight: 700;
     }
 
-.modal {
+.modal-newsletter {
   display: block; /* Hidden by default */
   position: fixed; /* Stay in place */
  /*  z-index: 10; /* Sit on top */
@@ -30,7 +30,7 @@
 }
 
 /* Modal Content/Box */
-.modal-content {
+.modal-content-newsletter {
   background-color: #fefefe;
   margin: 15% auto; /* 15% from the top and centered */
   /*padding: 20px;*/
