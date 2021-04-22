@@ -1,0 +1,63 @@
+<head>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ZynXI/Popup@main/Popup.css">
+    <link rel="stylesheet" href="https://sibforms.com/forms/end-form/build/sib-styles.css">
+
+</head>
+
+
+<body>
+    <!-- Trigger/Open The Modal -->
+<button id="myBtn">Open Modal</button>
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+    <div class="gauche">
+        
+    </div>
+    <div class="droite">
+        <h1> Ma Newsletter Universpara</h1>
+        <form id="sib-form" method="POST" action="https://24d35c4f.sibforms.com/serve/MUIEAFyMHDtHHiQJaYIvi5lo_UtciwEingJKZL9gZ07tw5Mnq6NJWSVC5LmhGWpZd460IQDw9cVO5NIhhW3gUOCD19A4snGqzr-vVaaohHoZ20YR4Z7A98g8PvLCV1FJ-wypPiWA564hIqvp5gGYYrQZ-LnLVTRpRL4z0Bn91iAUZaN_tAu3quw54coRw8_mIG5PpUQvlLyRli7H"
+        data-type="subscription" >
+            <input class="input" maxlength="200" type="text" id="PRENOM" name="PRENOM" autocomplete="off" placeholder="Prénom" data-required="true"/>
+            <input class="input" type="email" id="EMAIL" name="EMAIL" autocomplete="off" placeholder="Adresse Email" data-required="true"/>
+                    <input type="checkbox" class="input_replaced" value="1" id="OPT-IN_AVENT" name="OPT-IN_AVENT" />
+                   <p>&nbsp;En renseignant votre adresse e-mail, vous acceptez de recevoir des communications personnalisées de la part d'Universpara</p>                   
+                    <button class="sib-form-block__button sib-form-block__button-with-loader" style="font-size:20px; text-align:center; font-family:; color:#FFFFFF; background-color:#ff6f61; border-radius:3px; border-width:0px;" form="sib-form"
+              type="submit">
+              Je m'inscris !
+            </button>
+            <input type="text" name="email_address_check" value="" class="input--hidden">
+        <input type="hidden" name="locale" value="fr">
+        </form>
+    </div>
+     <span class="close">&times;</span>
+        
+
+</div></div>
+<script src="https://cdn.jsdelivr.net/gh/ZynXI/Popup@main/Popup.js"></script>
+<script>
+  window.REQUIRED_CODE_ERROR_MESSAGE = 'Veuillez choisir un code pays';
+
+  window.EMAIL_INVALID_MESSAGE = window.SMS_INVALID_MESSAGE = "Les informations que vous avez fournies ne sont pas valides. Veuillez vérifier le format du champ et réessayer.";
+
+  window.REQUIRED_ERROR_MESSAGE = "Vous devez renseigner ce champ. ";
+
+  window.GENERIC_INVALID_MESSAGE = "Les informations que vous avez fournies ne sont pas valides. Veuillez vérifier le format du champ et réessayer.";
+
+
+
+
+  window.translation = {
+    common: {
+      selectedList: '{quantity} liste sélectionnée',
+      selectedLists: '{quantity} listes sélectionnées'
+    }
+  };
+
+  var AUTOHIDE = Boolean(0);
+</script>
