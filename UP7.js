@@ -13,6 +13,14 @@ setTimeout(window.onload = () =>{jQuery("#popup-newsletter").load("https://cdn.j
 }
   
 }
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtn");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
 
 // Get the <button> element that closes the modal
 var button = document.getElementsByClassName("sib-form-block__button-with-loader")[0];
