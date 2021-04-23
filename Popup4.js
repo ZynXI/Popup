@@ -8,7 +8,7 @@ var btn = document.getElementById("myBtn");
 var span = document.getElementsByClassName("close");
 
 // Get the <button> element that closes the modal
-var button = document.getElementsByClassName("sib-form-block__button-with-loader")[0];
+var button = document.getElementsByClassName("sib-form-block__button-with-loader");
 
 // When the user clicks on the button, open the modal
 //	btn.onclick = function() {
