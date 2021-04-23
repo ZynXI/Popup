@@ -35,7 +35,7 @@
         <input type="hidden" name="locale" value="fr">
         </form>
     </div>
-     <span class="close">×</span>
+     <span id="popupclose"class="close">×</span>
         
 
 </div></div></div>
@@ -48,6 +48,9 @@ var btn = document.getElementById("myBtn");
 
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
+    
+// Get the button close
+var popupclose = document.getElementById("popupclose");
 
 // Get the <button> element that closes the modal
 var button = document.getElementsByClassName("sib-form-block__button-with-loader")[0];
@@ -78,6 +81,11 @@ span.onclick = function() {
 
 // When the user clicks on the button, close the modal
 button.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks on the button, close the modal
+popupclose.onclick = function() {
   modal.style.display = "none";
 }
 
