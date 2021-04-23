@@ -7,7 +7,7 @@ divPopUp.innerHTML = '';
 divPopUp.style.position = 'relative';
 divPopUp.style.zIndex = '999';
 document.body.appendChild(divPopUp);
-setTimeout(window.onload = () =>{jQuery("#popup-newsletter").load("https://cdn.jsdelivr.net/gh/ZynXI/Popup@main/PopUp2.6.html");}, 3000);
+setTimeout(window.onload = () =>{jQuery("#popup-newsletter").load("https://cdn.jsdelivr.net/gh/ZynXI/Popup@main/PopUp2.7.html");}, 3000);
 } else {
   
 }
