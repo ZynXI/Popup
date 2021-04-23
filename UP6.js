@@ -13,3 +13,11 @@ setTimeout(window.onload = () =>{jQuery("#popup-newsletter").load("https://cdn.j
 }
   
 }
+
+// Get the <button> element that closes the modal
+var button = document.getElementsByClassName("sib-form-block__button-with-loader")[0];
+
+// When the user clicks on the button, close the modal
+button.onclick = function() {
+  modal.style.display = "none";
+}
